@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 int main()
 {
@@ -7,19 +6,8 @@ int main()
      {
           for(j=1;j<=5;j++)
           {
-               if(i==3&&j==2){
-                         printf(" ");
-                    continue;
-               }
-               if(i==4&&j==2){
-                    printf(" ");
-                    continue;
-               }
-               if(i==4&&j==3){
-                    printf(" ");
-                    continue;
-               }
-               if(j>=1&&j<=i){
+
+               if(j==1||j==i||i==5){
                     printf("*");
 
                }

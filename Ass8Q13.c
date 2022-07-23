@@ -8,14 +8,12 @@ int main()
           {
                if(j<=8-i||j>=6+i){
                     printf("%c",++k);
-                    if(j>=7)
-                         k=k-2;
+                    j<7?k++:k--;
                }
 
                else{
                     printf(" ");
-                    if(j==7)
-                         k--;
+                    j<7?k++:k--;
                }
 
           }

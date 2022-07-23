@@ -7,10 +7,9 @@ int main()
           k=1;
           for(j=1;j<=7;j++)
           {
-               if(j>=i&&j<=8-i){
-                    printf("%d",k++);
-               if(j>=4)
-                         k=k-2;
+               if(j>=5-i&&j<=3+i){
+                    printf("%d",k);
+              j<4?k++:k--;
                }
                else
                     printf(" ");

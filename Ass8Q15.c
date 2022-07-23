@@ -7,21 +7,8 @@ int main()
      {
           for(j=1;j<=5;j++)
           {
-               if(i==3&&j==4){
-                         printf(" ");
-                    continue;
-               }
-               if(i==4&&j==3){
-                    printf(" ");
-                    continue;
-               }
-               if(i==4&&j==4){
-                    printf(" ");
-                    continue;
-               }
-               if(j>=6-i&&j<=5){
+               if(j==6-i||i==5||j==5){
                     printf("*");
-
                }
                else
                     printf(" ");

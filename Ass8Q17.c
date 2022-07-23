@@ -6,19 +6,7 @@ int main()
      {
           for(j=1;j<=9;j++)
           {
-               if(i==4&&j==4){
-                    printf(" ");
-                    continue;
-               }
-               if(i==3&&j>=4&&j<=6){
-                    printf(" ");
-                    continue;
-               }
-               if(i==2&&j>=3&&j<=7){
-                    printf(" ");
-                    continue;
-               }
-               if(j>=i&&j<=10-i){
+               if(i==1||j==i||j==10-i){
                     printf("*");
 
                }
